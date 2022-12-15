@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID | ANIMATIONS | @MarsUbay</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }   
+
+        header {
+            height: 80px;
+            background-color: aqua;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap-grid {
+            max-width: 890px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 30px;
+
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+            gap: 50px;
+
+        }
+
+        .box {
+            padding: 2em;
+            border-radius: .3em;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #grid1 {
+            background-color: chartreuse;
+        }
+
+        #grid2 {
+            background-color: chocolate;
+        }
+
+        #grid3 {
+            background-color: cornflowerblue;
+        }
+
+        #grid4 {
+            background-color: cornsilk;
+        }
+
+        #grid5 {
+            background-color: deeppink;
+        }
+
+        #grid6 {
+            background-color: yellow;
+        }
+
+       
+
+     
+
+    </style>
+
+
+</head>
+<body>
+   <header><h1>CSS GRID</h1></header>
+    <div class="wrap-grid">
+        <div class="box" id="grid1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sed perferendis voluptatibus odit ullam? Quia quas blanditiis sequi cupiditate dolor?</p></div>
+        <div class="box" id="grid2">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsa ex eius qui repudiandae voluptas modi ea nihil autem a!</p></div>
+        <div class="box" id="grid3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur libero aliquam eveniet non ut iure. Perspiciatis tempora provident assumenda eligendi?</p></div>
+        <div class="box" id="grid4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, tempora. At dignissimos rerum iure maxime suscipit praesentium aut in saepe?</p></div>
+        <div class="box" id="grid5">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium eaque cupiditate harum cum saepe obcaecati a quo excepturi nobis veritatis!</p></div>
+        <div class="box" id="grid6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sed perferendis voluptatibus odit ullam? Quia quas blanditiis sequi cupiditate dolor?</p></div>
+    </div>
+
+   
+</body>
+</html>
